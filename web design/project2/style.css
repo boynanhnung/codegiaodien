@@ -1,0 +1,110 @@
+body {
+    background-image: url(./img/Screenshot_21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body {
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+}
+.login {
+    width: 45%;
+    height: 570px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.login__form p:first-child {
+    font-weight: bold;
+}
+.login__desc {
+    margin: 50px auto;
+}
+.login__desc h2,.login__desc p {
+    margin: 5px 0;
+}
+.login img {
+    width: 150px;
+    height: 50px;
+}
+form input {
+    display: block;
+    width: 65%;
+    margin: 0;
+    height: 25px;
+}
+.pass {
+    width: 65%;
+    display: flex;
+    margin: 40px 0;
+    font-size: 10px;
+    line-height: 20px;
+}
+.pass input {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.pass span:last-child {
+    margin-right: 0;
+    margin-left: auto;
+    font-weight: bold;
+}
+.button__account button {
+    padding: 3px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+.button__account button:last-child {
+    border: 1px solid blueviolet;
+    background-color: white;
+    color: black;
+}
+.police {
+    margin-top: 70px;
+}
+.police span {
+    display: block;
+}
+.police a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.pre-viewer {
+    width: 65%;
+    height: 600px;
+    background-image: url(./img/Screenshot_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.pre-viewer ul {
+    list-style: none;
+    display: flex;
+    margin: 30px 50px;
+}
+.pre-viewer li {
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+.button__seemore {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.button__seemore button {
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: azure;
+    background-color: rgb(53, 50, 50);
+}
+.button__seemore button:first-child {
+    background-color: rgba(240, 248, 255, 0.037);
+}
